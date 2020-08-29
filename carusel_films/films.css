@@ -1,0 +1,17 @@
+html{
+    font-size: 20px;
+}
+.block1{
+    min-width:18rem;
+    max-width: 46rem;
+    position: relative;
+    margin:10rem auto;
+}
+.block1__cell{
+    display: inline-block;
+}
+/* .block1__cell img{
+    display: block;
+    width:14.8rem;
+    margin: auto;
+} */
