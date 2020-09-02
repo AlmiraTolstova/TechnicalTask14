@@ -48,7 +48,7 @@ for (var i = 0; i < keys.length; i++)
             }
             decimalAdded = false;
         }
-        //Иначе если последняя кнопка не оператор из массива operators = ['+','-','×','÷'];то:
+        //Иначе если нажатая кнопка это  оператор из массива operators = ['+','-','×','÷'];то:
         else if (operators.indexOf(btnVal) > -1) {
 
             var lastChar = inputVal[inputVal.length - 1];
