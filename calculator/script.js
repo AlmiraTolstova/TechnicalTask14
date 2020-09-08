@@ -2,13 +2,6 @@ var keys = document.querySelectorAll('#calculator span');
 var operators = ['+','-','×','÷'];
 var decimalAdded = false;
 
-//Выведем в консоль содержимое массива keys
-// for (var i=0; i<keys.length; i=i+1)
-// {
-//     console.log(i);
-//     console.log(keys[i]);
-// }
-
 //Цикл по всем кнопкам калькулятора
 for (var i = 0; i < keys.length; i++)
 {
